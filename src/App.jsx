@@ -1,8 +1,18 @@
+import Hero from "./Components/Hero/Hero"
+import Highlight from "./Components/Highlight/Highlight"
+import Navbar from "./Components/Navbar/Navbar"
 
 function App() {
 
   return (
-    <h1 className="text-3xl text-center">Hello world</h1>
+    <main>
+        {/* navbar */}
+        <Navbar />
+        {/* hero */}
+        <Hero />
+        {/* highlighted */}
+        <Highlight />
+    </main>
   )
 }
 
