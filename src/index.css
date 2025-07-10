@@ -25,7 +25,6 @@ canvas {
   max-width: 1120px;
 }
 
-@layout utilities {
   .flex-center {
     @apply flex items-center justify-center
   }
@@ -83,7 +82,7 @@ canvas {
   }
 
   .hero-title {
-    @apply text-center font-semibold text-3xl text-gray-100 opacity-0 max-md:mb-10
+    @apply text-center font-semibold text-3xl text-gray-200 opacity-0 max-md:mb-10
   }
 
   .hiw-title {
@@ -117,4 +116,3 @@ canvas {
   .g_fadeIn {
     @apply opacity-0 translate-y-[100px]
   }
-}
