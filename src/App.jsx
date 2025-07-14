@@ -4,6 +4,7 @@ import Highlight from "./Components/Highlight/Highlight"
 import Models from "./Components/Models/Models"
 import Navbar from "./Components/Navbar/Navbar"
 import * as Sentry from "@sentry/react"
+import HowItWorks from "./How-It-Works/HowItWorks"
 
 // eslint-disable-next-line react-refresh/only-export-components
 function App() {
@@ -19,6 +20,8 @@ function App() {
         <Models />
         {/* features */}
         <Features />
+        {/* how it works */}
+        <HowItWorks />
     </main>
   )
 }
